@@ -220,6 +220,7 @@
     padding-right: 20px;
     color: var(--bs-dark-blue);
     text-decoration: underline;
+    cursor: pointer;
   }
 
   .location img {
@@ -241,13 +242,36 @@
 
   .description {
     background-color: var(--bs-light);
-    padding: 15px;
+    padding: 60px;
     margin: 10px 5% 10px 10px;
     border-radius: 2px;
-    font-style: normal;
-    font-size: 1.3rem;
-    font-weight: lighter;
+    font-weight: 400;
     flex: 4;
+  }
+
+  .description p {
+    font-style: normal;
+    margin-bottom: 10px;
+  }
+
+  .description ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    height: 200px;
+  }
+
+  .description ul li {
+    margin: 10px 70px 10px 10px;
+  }
+
+  .description .likes {
+    margin: 10px 0;
   }
 
   .box {
@@ -256,7 +280,7 @@
   }
 
   .reviews {
-    flex: 1;
+    flex: 3;
   }
 
   .footer {
