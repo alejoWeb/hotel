@@ -280,7 +280,38 @@
 
   .description .likes {
     margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
+
+  .likes span {
+    display: block;
+    position: relative;
+    top:20px; 
+    margin-right: 20px;
+  }
+
+  .people img {
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+    position: relative;
+  }
+
+  .people img:nth-child(2){
+    right: 25px;
+  }
+
+  .people img:nth-child(3){
+    right: 50px;
+  }
+
+  .people img:last-child{
+    right: 70px;
+  }
+
+
 
   .box {
     background-color: var(--bs-light);
