@@ -102,26 +102,43 @@
   }
 
   .sidebar {
-    width: 15%;
     height: 100%;
+    width: 15%;
     background-color: var(--bs-dark-blue);
+    color: var(--bs-peach);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
   }
 
-  .sidebar ul {
-    padding: 50px 0px;
-    text-align: center;
+  .sidebar a {
+    padding: 8px 8px 8px 20%;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
   }
 
-  .sidebar ul li {
-    color: var(--bs-light);
-    line-height: 3;
-    font-style: normal;
-    font-weight: normal;
-    list-style: none;
+  .home{
+    width: 25px;
+    height: 25px;
   }
 
-  .sidebar ul li.active {
+  .sidebar .icons {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 8px;
+  }
+
+  .sidebar a.active {
     background-color: var(--bs-light-blue);
+  }
+
+  .sidebar a:hover {
+    background-color: var(--bs-light-blue);
+    color: var(--bs-light);
   }
 
   .sidebar li:hover {
