@@ -120,7 +120,7 @@
     transition: 0.3s;
   }
 
-  .home{
+  .home {
     width: 25px;
     height: 25px;
   }
@@ -156,11 +156,12 @@
 
   .carousel {
     width: 100%;
-    flex: 2;
+    flex: 1;
     background-color: var(--bs-red);
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    height: 190px;
   }
 
   .carousel img {
